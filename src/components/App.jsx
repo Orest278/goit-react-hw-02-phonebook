@@ -60,7 +60,6 @@ export class App extends Component {
           value={number}
           onChange={this.handleChange}
         />
-        <h2></h2>
         <button type="submit">Add contacts</button>
       </form>
       
