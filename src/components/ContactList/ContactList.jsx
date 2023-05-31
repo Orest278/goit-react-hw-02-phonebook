@@ -11,7 +11,7 @@ const ContactList = ({ contacts, handleDelete }) => (
 );
 
 const ContactListItem = ({ contact, handleDelete }) => (
-  <li>
+  <li className={s.lineContact}>
     {contact.name} - {contact.number}
     <button className={s.btnDelete} onClick={() => handleDelete(contact.id)}>Delete</button>
   </li>
