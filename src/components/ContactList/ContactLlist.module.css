@@ -1,0 +1,10 @@
+.btnDelete{
+    margin-left: 10px;
+}
+
+.listContact{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
